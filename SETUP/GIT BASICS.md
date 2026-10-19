@@ -3,7 +3,8 @@ git init
 
 # 2. Add all files in the folder to the staging area
 git add .
-
+ git config --global user.email
+ git config --global user.name
 # 3. Create your first commit with a message
 git commit -m "Initial commit of public cheat sheets"
 
@@ -16,3 +17,8 @@ git remote add origin https://github.com
 
 # 6. Push your code to GitHub and set the default upstream branch
 git push -u origin main
+
+
+
+
+
