@@ -1,4 +1,4 @@
-```
+
 ```mysql> SELECT priority, status, category, opened_at FROM cases;
 +----------+--------+-------------+---------------------+
 | priority | status | category    | opened_at           |
@@ -14,6 +14,7 @@
 +----------+--------+-------------+---------------------+
 8 rows in set (0.00 sec)
 ```
+
 
 ![](attachments/Pasted%20image%2020261018002944.png)
 
@@ -121,3 +122,8 @@ ADVANCE FILTERING IN AND OR
 ![](</attachments/Pasted image 20261019003646.png>) 
 
 ![](</attachments/Pasted image 20261019003740.png>)
+
+
+
+# 16 - Creating Custom Columns
+
