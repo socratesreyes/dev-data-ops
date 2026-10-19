@@ -118,3 +118,6 @@ ADVANCE FILTERING IN AND OR
 ![](attachments/Pasted%20image%2020261019003740.png)
 
 
+![](</attachments/Pasted image 20261019003646.png>) 
+
+![](</attachments/Pasted image 20261019003740.png>)
