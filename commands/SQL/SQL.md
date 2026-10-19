@@ -78,6 +78,8 @@ WHERE id BETWEEN 25 AND 30 ( SELF EXPLANATORY)
 
 FOR TEXT
 SELECT protocol FROM transfers WHERE protocol = 'SFTP';  
+
+
 ![](attachments/Pasted%20image%2020261018233129.png)
 
 
@@ -106,7 +108,13 @@ ADVANCE FILTERING IN AND OR
 
 # MySQL Database Tutorial - 12 - Are you IN or are you NOT IN?
 
+
+
 ![](attachments/Pasted%20image%2020261019003646.png)
+
+
+
+
 ![](attachments/Pasted%20image%2020261019003740.png)
 
 
