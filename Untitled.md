@@ -95,3 +95,39 @@ SELECT * FROM cases WHERE priority = 'high' AND category = 'transport';
 ![](attachments/Pasted%20image%2020261019003740.png)
 
 # 16 - Creating Custom Columns
+
+
+select all * 
+```
+mysql> SELECT * FROM cases;
++---------+-----------+---------------------+---------------------+----------+-------------+--------+---------------------------+
+| case_id | client_id | opened_at           | closed_at           | priority | category    | status | subject                   |
++---------+-----------+---------------------+---------------------+----------+-------------+--------+---------------------------+
+|       1 |         1 | 2026-10-01 09:00:00 | 2026-10-01 15:00:00 | high     | transport   | closed | SFTP login failing        |
+|       2 |         1 | 2026-10-05 10:00:00 | NULL                | medium   | portal      | open   | Portal slow on reports    |
+|       3 |         2 | 2026-10-06 08:30:00 | 2026-10-08 12:00:00 | high     | network     | closed | VPN tunnel drops          |
+|       4 |         3 | 2026-10-07 13:00:00 | NULL                | low      | enhancement | open   | Request: CSV export       |
+|       5 |         4 | 2026-10-09 07:00:00 | NULL                | high     | transport   | open   | AS2 receipts missing      |
+|       6 |         4 | 2026-10-10 09:00:00 | 2026-10-11 09:00:00 | medium   | portal      | closed | Password reset loop       |
+|       7 |         2 | 2026-10-12 11:00:00 | NULL                | high     | transport   | open   | Files stuck in queue      |
+|       8 |         5 | 2026-10-14 15:00:00 | NULL                | medium   | network     | open   | Cannot reach SFTP port 22 |
++---------+-----------+---------------------+---------------------+----------+-------------+--------+---------------------------+
+8 rows in set (0.01 sec)
+
+mysql> SHOW TABLES;
++-------------------+
+| Tables_in_support |
++-------------------+
+| cases             |
+| clients           |
+| transfers         |
+| users             |
++-------------------+
+4 rows in set (0.00 sec)
+```
+
+
+
+
+
+![](file-20261019213104517.png)
