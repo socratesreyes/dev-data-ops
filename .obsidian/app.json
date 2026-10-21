@@ -1,4 +1,7 @@
 {
-  "attachmentFolderPath": "attachments",
-  "useMarkdownLinks": true
+  "attachmentFolderPath": "attachments/",
+  "useMarkdownLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "attachments/",
+  "newLinkFormat": "absolute"
 }
